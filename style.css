@@ -1,0 +1,122 @@
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul{
+    list-style: none;
+}
+
+.carousel-inner {
+    /* height: 100vh; */
+}
+.text{
+
+    text-transform: uppercase !important;
+    font-size: calc(1.575rem + 3.9vw);
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 3rem !important;
+}
+
+
+.image-holder > img{
+    position: relative;
+    top: -60px;
+}
+.carouselbg{
+    background-color: #edf1f3;
+    /* height: 100vh; */
+}
+.mg{
+    margin: 30PX;
+    padding: 20px;
+}
+.card:hover img {
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+
+}
+
+.img-outer {
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.btn-medium {
+   
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
+
+
+.btn {
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: all .5s ease;
+}
+
+.card:hover .btn {
+    transition: all .5s ease;
+    opacity: 1;
+    transform: translateY(-40px);
+}
+.container-three .mb{
+    margin: 40px;
+    padding: 20px;
+}
+.mb-prod{
+    margin-bottom: 100px;
+}
+
+
+.mb-crd{
+    margin-bottom: 100px;
+}
+
+.input{
+  
+     width: 300px;
+     height: 50px;
+     padding-left: 10px;
+}
+
+.subbtn{
+    background-color:#72aec8;
+    height: 50px;
+    width: 150px;
+    margin-left: -10px;
+    border: none;
+}
+.mar{
+    margin: 100px 0px ;
+    height: 10px;
+   
+    
+}
+
+.op{
+opacity: 0.3;
+}
+
+.pd{
+    padding-left: 50px;
+}
+
+.brr{
+    border-bottom: 1px solid;
+}
+
+/* @media screen and (max-width:768px) {
+    .carousel-inner {
+        height: 100vh;
+    } 
+
+    .car-img{
+        height: 100%;
+    }
+} */
